@@ -54,7 +54,7 @@ export default function About() {
                       <p>Age: <span>20</span></p>
                     </div>
                     <div className='info-item padd-15'>
-                      <p>Website: <span>https://portfolio-lake-mu-69.vercel.app</span></p>
+                      <p>Website:<span>portfolio-lake-mu-69.vercel.app</span></p>
                     </div>
                     <div className='info-item padd-15'>
                       <p>Email: <span>dvc29062003@gmail.com</span></p>
