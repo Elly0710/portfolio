@@ -48,13 +48,13 @@ export default function About() {
                 <div className='personal-info padd-15'>
                   <div className='row'>
                     <div className='info-item padd-15'>
-                      <p>Birthday: <span>29 July 2003</span></p>
+                      <p>Birthday: <span>29 June 2003</span></p>
                     </div>
                     <div className='info-item padd-15'>
                       <p>Age: <span>20</span></p>
                     </div>
                     <div className='info-item padd-15'>
-                      <p>Website: <span>www.dangcuong.com</span></p>
+                      <p>Website: <span>https://portfolio-lake-mu-69.vercel.app</span></p>
                     </div>
                     <div className='info-item padd-15'>
                       <p>Email: <span>dvc29062003@gmail.com</span></p>

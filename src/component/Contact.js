@@ -34,7 +34,7 @@ export default function Contact() {
             <div className='contact-info-item padd-15'>
               <div className='icon'><i className='fa fa-globe-europe'></i></div>
               <h4>Website</h4>
-              <p>dangcuong.com</p>
+              <p>https://portfolio-lake-mu-69.vercel.app/</p>
             </div>
           </div>  
           <h3 className='contact-title padd-15'>SEND ME AN EMAIL</h3>

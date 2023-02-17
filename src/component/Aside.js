@@ -24,11 +24,11 @@ export default function Aside() {
         for (let j = 0; j < navList.length; j++) {
           if (navList[j].querySelector('a').classList.contains('active')) {
             document.querySelector('#' + arr[j]).classList.add('back-section')
-            console.log(document.querySelector('#' + arr[j]));
+            // console.log(document.querySelector('#' + arr[j]));
           }
 
           navList[j].querySelector('a').classList.remove('active')
-          console.log(navList[j].querySelector('a').classList.contains('active'));
+          // console.log(navList[j].querySelector('a').classList.contains('active'));
         }
 
         aTag.classList.add('active')
