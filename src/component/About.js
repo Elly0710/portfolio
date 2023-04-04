@@ -5,8 +5,6 @@ export default function About() {
   const arr = ['home', 'about', 'services', 'portfolio', 'contact']
   const hanleHireMe = () => {
     arr.map(item => document.querySelector('#' + item).classList.remove('active'))
-
-    // const href = element.getAttribute('href').split('#')[1];
     document.querySelector('#contact').classList.add('active')
   }
 
@@ -53,18 +51,18 @@ export default function About() {
                     <div className='info-item padd-15'>
                       <p>Age: <span>20</span></p>
                     </div>
-                    <div className='info-item padd-15'>
+                    {/* <div className='info-item padd-15'>
                       <p>Website:<span>portfolio-lake-mu-69.vercel.app</span></p>
-                    </div>
+                    </div> */}
                     <div className='info-item padd-15'>
                       <p>Email: <span>dvc29062003@gmail.com</span></p>
                     </div>
                     <div className='info-item padd-15'>
                       <p>Degree: <span>None</span></p>
                     </div>
-                    <div className='info-item padd-15'>
+                    {/* <div className='info-item padd-15'>
                       <p>Phone: <span>0982193203</span></p>
-                    </div>
+                    </div> */}
                     <div className='info-item padd-15'>
                       <p>City: <span>Hà Nội</span></p>
                     </div>
@@ -82,14 +80,14 @@ export default function About() {
                 <div className='skills padd-15'>
                   <div className='row'>
                     <div className='skill-item padd-15'>
-                      <h5>CSS</h5>
+                      <h5>ReactJs</h5>
                       <div className='progress'>
                         <div className='progress-in' style={{ width: '76%' }}></div>
                         <div className='skill-percent'>76%</div>
                       </div>
                     </div>
                     <div className='skill-item padd-15'>
-                      <h5>JS</h5>
+                      <h5>NodeJs</h5>
                       <div className='progress'>
                         <div className='progress-in' style={{ width: '86%' }}></div>
                         <div className='skill-percent'>86%</div>
@@ -103,14 +101,14 @@ export default function About() {
                       </div>
                     </div>
                     <div className='skill-item padd-15'>
-                      <h5>HTML</h5>
+                      <h5>MongoDB</h5>
                       <div className='progress'>
                         <div className='progress-in' style={{ width: '76%' }}></div>
                         <div className='skill-percent'>76%</div>
                       </div>
                     </div>
                     <div className='skill-item padd-15'>
-                      <h5>CSS</h5>
+                      <h5>Responsive</h5>
                       <div className='progress'>
                         <div className='progress-in' style={{ width: '76%' }}></div>
                         <div className='skill-percent'>76%</div>
